@@ -9,6 +9,10 @@ pnpm-debug.log*
 dist/
 build/
 *.local
+*.js
+*.js.map
+!*.config.js
+!eslint.config.js
 
 # Environment variables
 .env

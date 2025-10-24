@@ -84,6 +84,12 @@ See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for detailed development instruct
 
 See [docs/api.md](docs/api.md) for API endpoint documentation.
 
+## Security
+
+This project follows security best practices. See:
+- [SECURITY.md](SECURITY.md) - Security policy and reporting guidelines
+- [SECURITY_AUDIT.md](SECURITY_AUDIT.md) - Latest security audit report
+
 ## Project Status
 
 **Phase 1-3 Complete:** MVP is fully functional with core beer discovery features.  

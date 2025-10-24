@@ -52,4 +52,24 @@ router.get('/:id', (req: Request, res: Response) => {
   }
 });
 
+router.post('/recommendations', (req: Request, res: Response) => {
+  try {
+    const { types, formats, flavors, maxAbv } = req.body;
+
+    if (!types && !formats && !flavors && !maxAbv) {
+      return res.status(400).json({ error: 'At least one preference is required' });
+    }
+
+    const recommendedBeers = BeerService.getRecommendations({ types, formats, flavors, maxAbv });
+
+    res.json({
+      data: recommendedBeers,
+      count: recommendedBeers.length,
+    });
+  } catch (error) {
+    console.error('Error in POST /api/beers/recommendations:', error);
+    res.status(500).json({ error: 'Failed to fetch beer recommendations' });
+  }
+});
+
 export default router;

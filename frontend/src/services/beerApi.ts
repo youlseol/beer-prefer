@@ -1,5 +1,5 @@
 import { apiClient } from './api';
-import { Beer, BeerType, PackagingFormat } from '../../../shared/types/models';
+import { Beer, BeerType, PackagingFormat } from '@shared/types/models';
 
 export interface BeersResponse {
   data: Beer[];

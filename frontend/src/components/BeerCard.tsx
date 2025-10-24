@@ -1,4 +1,4 @@
-import { Beer } from '../../../shared/types/models';
+import { Beer } from '@shared/types/models';
 import '../styles/BeerCard.css';
 
 interface BeerCardProps {

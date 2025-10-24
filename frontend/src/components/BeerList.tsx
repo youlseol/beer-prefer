@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Beer } from '../../../shared/types/models';
+import { Beer } from '@shared/types/models';
 import { BeerCard } from './BeerCard';
 import '../styles/BeerList.css';
 

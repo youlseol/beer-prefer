@@ -58,4 +58,45 @@ export class BeerService {
       throw new Error('Failed to fetch beers with filters');
     }
   }
+
+  static getRecommendations({
+    types,
+    formats,
+    flavors,
+    maxAbv,
+  }: {
+    types?: BeerType[];
+    formats?: PackagingFormat[];
+    flavors?: string[];
+    maxAbv?: number;
+  }): Beer[] {
+    try {
+      let recommendedBeers = BeerModel.getAll();
+
+      if (types && types.length > 0) {
+        recommendedBeers = recommendedBeers.filter(beer => types.includes(beer.type));
+      }
+
+      if (formats && formats.length > 0) {
+        recommendedBeers = recommendedBeers.filter(beer =>
+          beer.formats.some(format => formats.includes(format))
+        );
+      }
+
+      if (flavors && flavors.length > 0) {
+        recommendedBeers = recommendedBeers.filter(beer =>
+          beer.flavor_profile.some(flavor => flavors.includes(flavor))
+        );
+      }
+
+      if (maxAbv !== undefined && maxAbv > 0) {
+        recommendedBeers = recommendedBeers.filter(beer => beer.alcohol_content <= maxAbv);
+      }
+
+      return recommendedBeers;
+    } catch (error) {
+      console.error('Error fetching beer recommendations:', error);
+      throw new Error('Failed to fetch beer recommendations');
+    }
+  }
 }

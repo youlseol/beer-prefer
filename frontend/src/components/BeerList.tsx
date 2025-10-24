@@ -1,48 +1,23 @@
-import { useState, useEffect } from 'react';
 import { Beer } from '@shared/types/models';
 import { BeerCard } from './BeerCard';
 import '../styles/BeerList.css';
 
 interface BeerListProps {
+  beers: Beer[];
   onBeerSelect: (id: number) => void;
+  onReset: () => void;
 }
 
-export function BeerList({ onBeerSelect }: BeerListProps) {
-  const [beers, setBeers] = useState<Beer[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetchBeers();
-  }, []);
-
-  const fetchBeers = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-      const data = await fetch('http://localhost:3001/api/beers').then(res => res.json());
-      setBeers(data.data);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'An error occurred');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  if (loading) {
+export function BeerList({ beers, onBeerSelect, onReset }: BeerListProps) {
+  if (beers.length === 0) {
     return (
       <div className="beer-list-container">
-        <div className="loading">Loading beers...</div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="beer-list-container">
-        <div className="error">
-          <p>{error}</p>
-          <button onClick={fetchBeers} className="retry-button">Retry</button>
+        <div className="no-results">
+          <h2>No beers match your preferences</h2>
+          <p>Try adjusting your answers in the quiz.</p>
+          <button onClick={onReset} className="reset-button">
+            Try Again
+          </button>
         </div>
       </div>
     );
@@ -51,8 +26,13 @@ export function BeerList({ onBeerSelect }: BeerListProps) {
   return (
     <div className="beer-list-container">
       <header className="beer-list-header">
-        <h1>🍺 Beer Preference Discovery</h1>
-        <p className="beer-count">Showing {beers.length} beer{beers.length !== 1 ? 's' : ''}</p>
+        <h1>Your Recommended Beers</h1>
+        <p className="beer-count">
+          Found {beers.length} beer{beers.length !== 1 ? 's' : ''} for you
+        </p>
+        <button onClick={onReset} className="reset-button-sm">
+          Start Over
+        </button>
       </header>
       
       <div className="beer-grid" role="list">

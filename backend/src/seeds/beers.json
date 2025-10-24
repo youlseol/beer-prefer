@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Classic Pilsner",
+    "type": "Pilsner",
+    "formats": ["Bottle", "Can"],
+    "description": "A crisp and golden Czech-style pilsner with a clean finish",
+    "flavor_profile": ["crisp", "clean", "hoppy", "refreshing"],
+    "origin": "Czech Republic",
+    "alcohol_content": 4.5
+  },
+  {
+    "name": "Bavarian Lager",
+    "type": "Lager",
+    "formats": ["Bottle", "Draft"],
+    "description": "Traditional German lager with a smooth, malty character",
+    "flavor_profile": ["smooth", "malty", "balanced"],
+    "origin": "Germany",
+    "alcohol_content": 5.0
+  },
+  {
+    "name": "American IPA",
+    "type": "IPA",
+    "formats": ["Can", "Draft"],
+    "description": "Bold and hoppy IPA with citrus and pine notes",
+    "flavor_profile": ["hoppy", "bitter", "citrus", "pine"],
+    "origin": "USA",
+    "alcohol_content": 6.5
+  },
+  {
+    "name": "Irish Stout",
+    "type": "Stout",
+    "formats": ["Bottle", "Can", "Draft"],
+    "description": "Rich and creamy stout with roasted malt flavors",
+    "flavor_profile": ["roasted", "creamy", "coffee", "smooth"],
+    "origin": "Ireland",
+    "alcohol_content": 4.2
+  },
+  {
+    "name": "Belgian Wheat",
+    "type": "Wheat Beer",
+    "formats": ["Bottle"],
+    "description": "Cloudy wheat beer with coriander and orange peel",
+    "flavor_profile": ["spicy", "citrus", "refreshing", "wheat"],
+    "origin": "Belgium",
+    "alcohol_content": 4.8
+  },
+  {
+    "name": "English Pale Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Draft"],
+    "description": "Traditional English ale with earthy hop character",
+    "flavor_profile": ["malty", "earthy", "balanced", "smooth"],
+    "origin": "England",
+    "alcohol_content": 5.2
+  },
+  {
+    "name": "West Coast IPA",
+    "type": "IPA",
+    "formats": ["Can"],
+    "description": "Aggressively hopped IPA with grapefruit and resin notes",
+    "flavor_profile": ["very hoppy", "bitter", "grapefruit", "piney"],
+    "origin": "USA",
+    "alcohol_content": 7.0
+  },
+  {
+    "name": "German Wheat Beer",
+    "type": "Wheat Beer",
+    "formats": ["Bottle", "Can"],
+    "description": "Refreshing hefeweizen with banana and clove notes",
+    "flavor_profile": ["banana", "clove", "fruity", "refreshing"],
+    "origin": "Germany",
+    "alcohol_content": 5.4
+  },
+  {
+    "name": "Mexican Lager",
+    "type": "Lager",
+    "formats": ["Bottle", "Can"],
+    "description": "Light and crisp lager perfect for hot weather",
+    "flavor_profile": ["light", "crisp", "refreshing", "clean"],
+    "origin": "Mexico",
+    "alcohol_content": 4.5
+  },
+  {
+    "name": "Imperial Stout",
+    "type": "Stout",
+    "formats": ["Bottle"],
+    "description": "Rich and bold stout with chocolate and dark fruit",
+    "flavor_profile": ["rich", "chocolate", "dark fruit", "full-bodied"],
+    "origin": "Russia",
+    "alcohol_content": 9.0
+  },
+  {
+    "name": "New England IPA",
+    "type": "IPA",
+    "formats": ["Can"],
+    "description": "Hazy and juicy IPA with tropical fruit flavors",
+    "flavor_profile": ["juicy", "hazy", "tropical", "fruity"],
+    "origin": "USA",
+    "alcohol_content": 6.8
+  },
+  {
+    "name": "Brown Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Can"],
+    "description": "Nutty brown ale with caramel malt sweetness",
+    "flavor_profile": ["nutty", "caramel", "malty", "smooth"],
+    "origin": "England",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Japanese Lager",
+    "type": "Lager",
+    "formats": ["Can", "Draft"],
+    "description": "Ultra-crisp rice lager with delicate flavor",
+    "flavor_profile": ["crisp", "light", "clean", "delicate"],
+    "origin": "Japan",
+    "alcohol_content": 5.0
+  },
+  {
+    "name": "Oatmeal Stout",
+    "type": "Stout",
+    "formats": ["Bottle", "Draft"],
+    "description": "Smooth stout with oatmeal adding silky texture",
+    "flavor_profile": ["smooth", "silky", "coffee", "chocolate"],
+    "origin": "England",
+    "alcohol_content": 5.8
+  },
+  {
+    "name": "Belgian Blonde Ale",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Golden Belgian ale with subtle spice notes",
+    "flavor_profile": ["fruity", "spicy", "smooth", "balanced"],
+    "origin": "Belgium",
+    "alcohol_content": 6.5
+  },
+  {
+    "name": "Session IPA",
+    "type": "IPA",
+    "formats": ["Can", "Draft"],
+    "description": "Lower alcohol IPA with full hop flavor",
+    "flavor_profile": ["hoppy", "light", "citrus", "sessionable"],
+    "origin": "USA",
+    "alcohol_content": 4.5
+  },
+  {
+    "name": "American Wheat",
+    "type": "Wheat Beer",
+    "formats": ["Bottle", "Can"],
+    "description": "Clean wheat beer with subtle citrus notes",
+    "flavor_profile": ["wheat", "citrus", "clean", "refreshing"],
+    "origin": "USA",
+    "alcohol_content": 4.8
+  },
+  {
+    "name": "Vienna Lager",
+    "type": "Lager",
+    "formats": ["Bottle"],
+    "description": "Amber lager with toasted malt character",
+    "flavor_profile": ["toasted", "malty", "smooth", "amber"],
+    "origin": "Austria",
+    "alcohol_content": 5.2
+  },
+  {
+    "name": "Milk Stout",
+    "type": "Stout",
+    "formats": ["Bottle", "Can"],
+    "description": "Sweet stout with lactose for creamy sweetness",
+    "flavor_profile": ["sweet", "creamy", "chocolate", "smooth"],
+    "origin": "England",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Amber Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Can", "Draft"],
+    "description": "Balanced ale with caramel malt and moderate hops",
+    "flavor_profile": ["caramel", "balanced", "malty", "hoppy"],
+    "origin": "USA",
+    "alcohol_content": 5.8
+  },
+  {
+    "name": "Double IPA",
+    "type": "IPA",
+    "formats": ["Can"],
+    "description": "High alcohol IPA with intense hop character",
+    "flavor_profile": ["very hoppy", "strong", "resinous", "bold"],
+    "origin": "USA",
+    "alcohol_content": 8.5
+  },
+  {
+    "name": "Schwarzbier",
+    "type": "Lager",
+    "formats": ["Bottle"],
+    "description": "Dark German lager with roasted malt notes",
+    "flavor_profile": ["dark", "roasted", "smooth", "clean"],
+    "origin": "Germany",
+    "alcohol_content": 4.8
+  },
+  {
+    "name": "Blonde Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Can"],
+    "description": "Easy-drinking golden ale with subtle flavors",
+    "flavor_profile": ["light", "smooth", "clean", "easy-drinking"],
+    "origin": "USA",
+    "alcohol_content": 5.0
+  },
+  {
+    "name": "Dunkelweizen",
+    "type": "Wheat Beer",
+    "formats": ["Bottle"],
+    "description": "Dark wheat beer with banana and chocolate notes",
+    "flavor_profile": ["banana", "chocolate", "wheat", "smooth"],
+    "origin": "Germany",
+    "alcohol_content": 5.3
+  },
+  {
+    "name": "Export Lager",
+    "type": "Lager",
+    "formats": ["Bottle", "Can"],
+    "description": "German export lager with balanced hop character",
+    "flavor_profile": ["balanced", "malty", "hoppy", "crisp"],
+    "origin": "Germany",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Porter",
+    "type": "Porter",
+    "formats": ["Bottle", "Draft"],
+    "description": "Dark ale with chocolate and coffee notes",
+    "flavor_profile": ["chocolate", "coffee", "roasted", "smooth"],
+    "origin": "England",
+    "alcohol_content": 5.4
+  },
+  {
+    "name": "Belgian Dubbel",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Dark Belgian ale with raisin and caramel flavors",
+    "flavor_profile": ["dark fruit", "caramel", "spicy", "complex"],
+    "origin": "Belgium",
+    "alcohol_content": 7.0
+  },
+  {
+    "name": "Helles Lager",
+    "type": "Lager",
+    "formats": ["Bottle", "Draft"],
+    "description": "Munich pale lager with gentle malt sweetness",
+    "flavor_profile": ["malty", "sweet", "clean", "balanced"],
+    "origin": "Germany",
+    "alcohol_content": 4.7
+  },
+  {
+    "name": "Red Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Can"],
+    "description": "Reddish ale with caramel and toffee notes",
+    "flavor_profile": ["caramel", "toffee", "malty", "balanced"],
+    "origin": "Ireland",
+    "alcohol_content": 5.2
+  },
+  {
+    "name": "Kölsch",
+    "type": "Ale",
+    "formats": ["Bottle", "Can", "Draft"],
+    "description": "Cologne-style ale that drinks like a lager",
+    "flavor_profile": ["crisp", "clean", "delicate", "fruity"],
+    "origin": "Germany",
+    "alcohol_content": 4.8
+  },
+  {
+    "name": "Cream Ale",
+    "type": "Ale",
+    "formats": ["Can"],
+    "description": "Smooth American ale with light body",
+    "flavor_profile": ["light", "smooth", "clean", "refreshing"],
+    "origin": "USA",
+    "alcohol_content": 5.0
+  },
+  {
+    "name": "Baltic Porter",
+    "type": "Porter",
+    "formats": ["Bottle"],
+    "description": "Strong dark lager with roasted malt complexity",
+    "flavor_profile": ["roasted", "dark fruit", "complex", "smooth"],
+    "origin": "Poland",
+    "alcohol_content": 7.5
+  },
+  {
+    "name": "Belgian Tripel",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Strong golden Belgian ale with spicy character",
+    "flavor_profile": ["strong", "spicy", "fruity", "complex"],
+    "origin": "Belgium",
+    "alcohol_content": 8.5
+  },
+  {
+    "name": "Marzen",
+    "type": "Lager",
+    "formats": ["Bottle", "Can"],
+    "description": "Oktoberfest-style lager with rich malt flavor",
+    "flavor_profile": ["malty", "toasted", "smooth", "festive"],
+    "origin": "Germany",
+    "alcohol_content": 5.8
+  },
+  {
+    "name": "Saison",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Farmhouse ale with peppery and fruity notes",
+    "flavor_profile": ["spicy", "peppery", "fruity", "dry"],
+    "origin": "Belgium",
+    "alcohol_content": 6.5
+  },
+  {
+    "name": "Black IPA",
+    "type": "IPA",
+    "formats": ["Can", "Draft"],
+    "description": "Dark IPA combining roast and hop flavors",
+    "flavor_profile": ["hoppy", "roasted", "bitter", "complex"],
+    "origin": "USA",
+    "alcohol_content": 6.8
+  },
+  {
+    "name": "Wit Beer",
+    "type": "Wheat Beer",
+    "formats": ["Bottle", "Can"],
+    "description": "Belgian white beer with coriander and citrus",
+    "flavor_profile": ["citrus", "spicy", "wheat", "refreshing"],
+    "origin": "Belgium",
+    "alcohol_content": 4.5
+  },
+  {
+    "name": "Bock",
+    "type": "Lager",
+    "formats": ["Bottle"],
+    "description": "Strong German lager with malty sweetness",
+    "flavor_profile": ["malty", "sweet", "strong", "smooth"],
+    "origin": "Germany",
+    "alcohol_content": 6.5
+  },
+  {
+    "name": "Scottish Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Draft"],
+    "description": "Malty Scottish ale with caramel notes",
+    "flavor_profile": ["malty", "caramel", "smooth", "rich"],
+    "origin": "Scotland",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Gose",
+    "type": "Sour",
+    "formats": ["Can"],
+    "description": "Tart wheat beer with salt and coriander",
+    "flavor_profile": ["tart", "salty", "refreshing", "sour"],
+    "origin": "Germany",
+    "alcohol_content": 4.2
+  },
+  {
+    "name": "Barleywine",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Strong ale with wine-like complexity",
+    "flavor_profile": ["strong", "complex", "fruity", "rich"],
+    "origin": "England",
+    "alcohol_content": 10.0
+  },
+  {
+    "name": "Doppelbock",
+    "type": "Lager",
+    "formats": ["Bottle"],
+    "description": "Extra strong bock with rich malt character",
+    "flavor_profile": ["very malty", "rich", "strong", "smooth"],
+    "origin": "Germany",
+    "alcohol_content": 8.0
+  },
+  {
+    "name": "California Common",
+    "type": "Lager",
+    "formats": ["Bottle", "Can"],
+    "description": "Unique hybrid beer with lager and ale qualities",
+    "flavor_profile": ["toasted", "balanced", "crisp", "unique"],
+    "origin": "USA",
+    "alcohol_content": 5.0
+  },
+  {
+    "name": "ESB",
+    "type": "Ale",
+    "formats": ["Bottle", "Draft"],
+    "description": "Extra Special Bitter with balanced malt and hops",
+    "flavor_profile": ["balanced", "malty", "hoppy", "smooth"],
+    "origin": "England",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Berliner Weisse",
+    "type": "Sour",
+    "formats": ["Bottle", "Can"],
+    "description": "Light and tart wheat beer with lactic sourness",
+    "flavor_profile": ["tart", "light", "refreshing", "sour"],
+    "origin": "Germany",
+    "alcohol_content": 3.5
+  },
+  {
+    "name": "Rauchbier",
+    "type": "Lager",
+    "formats": ["Bottle"],
+    "description": "Smoked German lager with bacon-like flavors",
+    "flavor_profile": ["smoky", "bacon", "malty", "unique"],
+    "origin": "Germany",
+    "alcohol_content": 5.5
+  },
+  {
+    "name": "Farmhouse Ale",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Rustic ale with earthy and fruity character",
+    "flavor_profile": ["earthy", "fruity", "rustic", "dry"],
+    "origin": "France",
+    "alcohol_content": 5.8
+  },
+  {
+    "name": "Golden Ale",
+    "type": "Ale",
+    "formats": ["Bottle", "Can"],
+    "description": "Bright golden ale with light hop character",
+    "flavor_profile": ["light", "hoppy", "crisp", "golden"],
+    "origin": "England",
+    "alcohol_content": 4.5
+  },
+  {
+    "name": "Rye Beer",
+    "type": "Ale",
+    "formats": ["Bottle"],
+    "description": "Spicy ale brewed with rye malt",
+    "flavor_profile": ["spicy", "rye", "earthy", "unique"],
+    "origin": "USA",
+    "alcohol_content": 6.0
+  },
+  {
+    "name": "Fruit Beer",
+    "type": "Ale",
+    "formats": ["Can"],
+    "description": "Ale infused with real fruit for sweet tartness",
+    "flavor_profile": ["fruity", "sweet", "tart", "refreshing"],
+    "origin": "Belgium",
+    "alcohol_content": 4.5
+  }
+]
